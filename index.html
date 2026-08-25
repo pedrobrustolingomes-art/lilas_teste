@@ -12,30 +12,20 @@
 
 <body>
 
-    <!-- =========================
-         ACESSIBILIDADE
-    ========================== -->
+    <!-- ACESSIBILIDADE -->
 
     <div class="acessibilidade">
 
-        <button onclick="aumentarFonte()" aria-label="Aumentar tamanho da letra">
-            A+
-        </button>
+        <button onclick="aumentarFonte()">A+</button>
 
-        <button onclick="diminuirFonte()" aria-label="Diminuir tamanho da letra">
-            A-
-        </button>
+        <button onclick="diminuirFonte()">A-</button>
 
-        <button onclick="alternarTema()" aria-label="Alternar modo claro e escuro">
-            ☀️ / 🌙
-        </button>
+        <button onclick="alternarTema()">☀️ / 🌙</button>
 
     </div>
 
 
-    <!-- =========================
-         CABEÇALHO
-    ========================== -->
+    <!-- CABEÇALHO -->
 
     <header>
 
@@ -59,9 +49,7 @@
     </header>
 
 
-    <!-- =========================
-         CONTEÚDO PRINCIPAL
-    ========================== -->
+    <!-- CONTEÚDO -->
 
     <main>
 
@@ -78,9 +66,7 @@
         </section>
 
 
-        <!-- =========================
-             CARDS
-        ========================== -->
+        <!-- CARDS -->
 
         <section class="grade">
 
@@ -89,8 +75,15 @@
 
             <article class="card">
 
-                <div class="card-imagem">
-                    💜
+                <div class="imagem">
+
+                    <!-- COLOQUE SUA IMAGEM AQUI -->
+
+                    <img
+                        src="imagens/agosto-lilas.jpg"
+                        alt="Imagem representando o Agosto Lilás"
+                    >
+
                 </div>
 
                 <h2>O que é o Agosto Lilás?</h2>
@@ -109,8 +102,15 @@
 
             <article class="card">
 
-                <div class="card-imagem">
-                    🛡️
+                <div class="imagem">
+
+                    <!-- COLOQUE SUA IMAGEM AQUI -->
+
+                    <img
+                        src="imagens/conscientizacao.jpg"
+                        alt="Imagem sobre conscientização"
+                    >
+
                 </div>
 
                 <h2>Por que falar sobre isso?</h2>
@@ -128,8 +128,15 @@
 
             <article class="card">
 
-                <div class="card-imagem">
-                    ✋
+                <div class="imagem">
+
+                    <!-- COLOQUE SUA IMAGEM AQUI -->
+
+                    <img
+                        src="imagens/tipos-violencia.jpg"
+                        alt="Imagem representando os tipos de violência"
+                    >
+
                 </div>
 
                 <h2>Tipos de violência</h2>
@@ -138,7 +145,7 @@
 
                     <li>
                         <strong>Física:</strong>
-                        agressões que causam ou podem causar danos físicos.
+                        agressões que podem causar danos físicos.
                     </li>
 
                     <li>
@@ -170,8 +177,15 @@
 
             <article class="card">
 
-                <div class="card-imagem">
-                    🤝
+                <div class="imagem">
+
+                    <!-- COLOQUE SUA IMAGEM AQUI -->
+
+                    <img
+                        src="imagens/combate-violencia.jpg"
+                        alt="Imagem sobre combate à violência"
+                    >
+
                 </div>
 
                 <h2>Como podemos ajudar?</h2>
@@ -205,11 +219,20 @@
         </section>
 
 
-        <!-- =========================
-             ÁREA DE AJUDA
-        ========================== -->
+        <!-- ÁREA DE AJUDA -->
 
         <section class="destaque">
+
+            <div class="imagem-destaque">
+
+                <!-- ESPAÇO PARA OUTRA IMAGEM -->
+
+                <img
+                    src="imagens/ajuda.jpg"
+                    alt="Imagem representando ajuda e proteção"
+                >
+
+            </div>
 
             <h2>Precisa de ajuda?</h2>
 
@@ -229,7 +252,6 @@
                     🚔 Polícia Militar do Paraná
                 </a>
 
-
                 <a
                     class="botao disque"
                     href="tel:180"
@@ -242,11 +264,20 @@
         </section>
 
 
-        <!-- =========================
-             MENSAGEM
-        ========================== -->
+        <!-- MENSAGEM -->
 
         <section class="mensagem">
+
+            <div class="imagem-mensagem">
+
+                <!-- ESPAÇO PARA OUTRA IMAGEM -->
+
+                <img
+                    src="imagens/respeito.jpg"
+                    alt="Imagem sobre respeito"
+                >
+
+            </div>
 
             <h2>Uma mensagem importante</h2>
 
@@ -263,22 +294,32 @@
         </section>
 
 
-        <!-- =========================
-             SEU NOME
-        ========================== -->
+        <!-- SEU NOME -->
 
         <section class="identificacao">
 
-            <h2>Pedro Gomes</h2>
+            <h2>Seu nome</h2>
+
+            <div class="campo">
+
+                <label for="nome">
+                    Nome:
+                </label>
+
+                <input
+                    type="text"
+                    id="nome"
+                    placeholder="Digite seu nome"
+                >
+
+            </div>
 
         </section>
 
     </main>
 
 
-    <!-- =========================
-         RODAPÉ
-    ========================== -->
+    <!-- RODAPÉ -->
 
     <footer>
 
