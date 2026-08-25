@@ -11,9 +11,7 @@ function aumentarFonte() {
 
         document.body.style.fontSize =
             tamanhoFonte + "px";
-
     }
-
 }
 
 
@@ -27,15 +25,13 @@ function diminuirFonte() {
 
         document.body.style.fontSize =
             tamanhoFonte + "px";
-
     }
-
 }
 
 
-// ==========================================
+// =========================
 // MODO CLARO / ESCURO
-// ==========================================
+// =========================
 
 function alternarTema() {
 
